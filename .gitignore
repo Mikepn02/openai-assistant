@@ -18,11 +18,6 @@ node_modules
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # misc
 /.sass-cache
@@ -42,8 +37,10 @@ Thumbs.db
 .nx/workspace-data
 .angular
 
-.env
-.env.*
 !.env.dist
 /apps/spa/src/assets/uploads
 /apps/spa/src/assets/js/*.js
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
